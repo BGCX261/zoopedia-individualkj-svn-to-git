@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style type="text/css">
+  .body2 A:link { 
+    color: #036; /* The color of the unvisited links */
+   }
+  .body2 A:visited { 
+    color: #606; /* The color of the visited links */
+   }
+  .body2 A:hover { 
+    color: #f00; /* The color of the link while bringing the cursor to it */
+   }
+  .body2 A:active { 
+    color: #ff0; /* The color of the active links */
+   }
+  </style>
+
+    <title>Games</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.1.js"></script>
+    <script>
+		$(document).ready(function(){				   	
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:'.prev',
+				nextBu:'.next',
+				playBu:false,
+				duration:800,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:false,
+				banners:false,
+				waitBannerAnimation:false,
+				progressBar:false
+			})		
+		});
+	</script>
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+  <div class="main">
+  <!--==============================header=================================-->
+    <header>
+       <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <h2 class="p2" style="font-size:100px;">ZooPedia</h2>
+        <nav>  
+            <div id="slide">		
+                <div class="slider">
+                    <ul class="items">
+                        <li><img src="images/slider-1.jpg" ></li>
+                        <li><img src="images/slider-2.jpg" alt="" /></li>
+                        <li><img src="images/slider-3.jpg" alt="" /></li>
+                        <li><img src="images/slider-5.jpg" alt="" /></li>
+                         <li><img src="images/slider-6.jpg" alt="" /></li>
+                          <li><img src="images/slider-7.jpg" alt="" /></li>
+                           <li><img src="images/slider-8.jpg" alt="" /></li>
+                            <li><img src="images/slider-9.jpg" alt="" /></li>
+                             <li><img src="images/slider-10.jpg" alt="" /></li>
+                    </ul>
+                </div>	
+                <a href="#" class="prev"></a><a href="#" class="next"></a>
+            </div>
+            <ul class="menu">
+              <li class="current"><a href="index.html" class="clr-1">Home</a></li>
+              <li><a href="animals.html" class="clr-2">Animals</a>                </li>
+              <li><a href="games.html" class="clr-3">Games</a></li>
+              <li><a href="activities.html" class="clr-4">Activities</a></li>
+              <li><a href="maps.html" class="clr-5">Maps</a></li>
+                <li><a href="glossary.php" class="clr-8">Glossary</a></li>
+          </ul>
+         </nav>
+    </header>   
+  <!--==============================content================================-->
+  <span class="body2">
+
+    <section id="content"><div class="ic"></div>
+        <div class="container_12">
+          <div class="grid_8">
+            <div class="block-1 top-5" style="width:950px;">
+            	<div class="block-1-shadow" >
+                <form action="search_check.php" method="post" name="search" style="position:relative; left:72%; width:275px;" >
+
+<input name="keyword" type="text" value="Enter a Keyword" size="30" style="background-image:url(images/search.png); background-position:center; color:#FFF; height:30px; "> 
+<input name="Search" type="submit" value="Search" style="background-color:#CCC; width:50px; height:30px;">
+<input name="all" type="radio" value="1" checked hidden="true">
+</form>
+                	<h2 class="clr-6">Games                   </h2>
+                   
+               <table width="900" style="border-width:4px;border-color:black;border-style:solid;">
+  <tr style="border-width:2px;border-color:black;border-style:solid;">
+    <td width="172" ><a href="jig saw.html"><img src="images/jigsaw.png" width="150" height="150" alt="Jigsaw"></a></td>
+    <td width="738"><br><h2  style="font-size:30px" ><a href="jig saw.html"  >Join the Peices..Form the animal..<br>
+  Play "JigSaw Game"!!</a></h2></td>
+  </tr>
+  <tr style="border-width:2px;border-color:black;border-style:solid;">
+    <td><a href="findmyhome.html"><img src="images/animal home1.jpg" width="150" height="150" alt="find my home"></a></td>
+    <td><h2  style="font-size:30px" ><a href="findmyhome.html" >Match the animals with their homes..Help them <br>reach their home..<br>
+  Play "Find My Home"!!</a></h2></td>
+  </tr>
+  <tr style="border-width:2px;border-color:black;border-style:solid;">
+    <td><a href="guess who.html"><img src="images/guess who.jpg" width="150" height="150" alt="Guess who"></a></td>
+    <td><br><h2  style="font-size:30px" ><a href="guess who.html"  >Hear the sound.. and guess the animal  
+    <br>
+   Play the "Guess who???"</a></h2></td>
+  </tr>
+  <tr style="border-width:2px;border-color:black;border-style:solid;">
+    <td><a href="mahajongg.html"><img src="images/mahajong.png" width="150" height="150" alt="Mahajong"></a></td>
+    <td><br><h2  style="font-size:30px" ><a href="mahajongg.html"  >Lets test your memory here...
+    <br>
+Play Mahajong!!!</a></h2></td>
+  </tr>
+  <tr style="border-width:2px;border-color:black;border-style:solid;">
+    <td><a href="find my food.html"><img src="images/maze gae.gif" width="150" height="150" alt="Maze game"></a></td>
+    <td><br><h2  style="font-size:30px" ><a href="find my food.html"  >Help me reach my food through the maze
+    <br>
+    Play Find my food Game!!!</a></h2></td>
+  </tr>
+</table>
+
+                   
+            
+                  
+                  
+                  
+                  
+<div class="pad-2">
+  <a href="index.html" class="link-2" >Back to Home Page</a>
+</div>
+                   
+                   
+              </div>
+            </div>
+            <!--==============================footer=================================-->
+            <footer>
+				Project ZooPedia Created by Kaushik Jain, Ajay Raykar, Pritish Vaity , Chetna Gulati
+                <br> as ICT Project at James Cook University.
+            </footer>	  
+          </div>
+          <div class="clear"></div>
+        </div>
+    </section>    
+    </span>
+   </div>      
+</body>
+</html>
